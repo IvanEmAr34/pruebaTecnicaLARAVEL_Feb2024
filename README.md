@@ -1,3 +1,32 @@
+## Prueba tecnica utilizando Laravel
+
+### En este repositorio se encuentra la prueba tecnica en laravel, la cual cumple con los siguientes puntos:
+
+- Crea un nuevo proyecto Laravel y configúralo correctamente.
+- Utiliza una base de datos MySql o MariaDB para este proyecto.
+- Crea una migración para crear la siguiente tabla en la base de datos:
+    1. Nombre de la tabla: "productos"
+    2. Campos:
+        - id (entero, clave primaria)
+        - nombre (cadena de texto)
+        - precio (decimal)
+        - cantidad (entero)
+        - creado_en (fecha y hora de creación)
+        - actualizado_en (fecha y hora de actualización)
+- Crea un modelo correspondiente para la tabla "productos".
+- Crea un controlador llamado "ProductoController" con los métodos necesarios para realizar las siguientes acciones:
+    1. Mostrar una lista de todos los productos en la base de datos.
+    2. Mostrar el formulario para crear un nuevo producto.
+    3. Almacenar un nuevo producto en la base de datos.
+    4. Mostrar los detalles de un producto específico.
+    5. Mostrar el formulario para editar un producto.
+    6. Actualizar un producto existente en la base de datos.
+    7. Eliminar un producto de la base de datos.
+- Crea las rutas necesarias en el archivo de rutas web.php para que las acciones del controlador sean accesibles.
+- Utiliza las vistas de Blade para crear las plantillas necesarias para las acciones del controlador.
+- Asegúrate de validar los datos ingresados en los formularios y manejar los errores adecuadamente.
+- Escribe un código que almacene un archivo cargado por el usuario en el sistema de archivos y guarde la ruta del archivo en la base de datos.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
